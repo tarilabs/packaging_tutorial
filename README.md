@@ -1,5 +1,8 @@
 # Example Package
 
-This is a simple example package. You can use
-[GitHub-flavored Markdown](https://guides.github.com/features/mastering-markdown/)
-to write your content.
+checked with:
+```
+poetry config repositories.test-pypi https://test.pypi.org/legacy/
+poetry config pypi-token.test-pypi pypi-XXXXXXXXXXXX
+poetry publish -r test-pypi
+```
