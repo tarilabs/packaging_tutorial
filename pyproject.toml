@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "example_package_tarilabs"
+version = "0.0.2"
+authors = [
+  "Matteo Mortari <mmortari@redhat.com>",
+]
+description = "A small example package"
+readme = "README.md"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: OS Independent",
+]
+homepage = "https://github.com/pypa/sampleproject"
+
+[tool.poetry.urls]
+"Issues" = "https://github.com/pypa/sampleproject/issues"
